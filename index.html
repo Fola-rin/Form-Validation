@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="form-container">
+		<form method="POST" id="form" onsubmit= "onSubmit(event)">
+			<h2 id="sign-up">
+				Sign-Up
+			</h2>
+
+			<span class="block-span">
+				Username
+			</span>
+			<input id="id_username" type="text" name="name">
+			<div id="div_username_text">
+				<span> </span>
+			</div>
+
+			<span class="block-span">
+				E-mail
+			</span>
+			<input id="id_email" type="text" name="email">
+			<div id="div_email_text">
+				<span> </span>
+			</div>
+			
+			<span class="block-span">
+				Password
+			</span>
+			<input id="id_password" type="password" name="">
+			<div id="div_password_text">
+				<span> </span>
+			</div>
+
+			<span id="span_password"></span>
+			<span class="block-span">
+				Confirm Password
+			</span>
+			<input id="id_password_confirm" type="password" name="">
+			<div id ="div_confirm_text">
+				<span> </span>
+			</div>
+		
+			<input class="submit" type="submit" value="Sign-Up">
+		</form>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
